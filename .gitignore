@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Reference images and test images
+reference_images/
+images_*.jpg
+images_*.jpeg
+new_*.jpg
+new_*.jpeg
+ref.jpeg
+
+# Test artifacts
+.pytest_cache/
+.coverage
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
