@@ -17,7 +17,8 @@ images_*.jpeg
 new_*.jpg
 new_*.jpeg
 ref.jpeg
-.jpeg
+new.jpeg
+images.jpeg
 .jpg
 
 # Test artifacts

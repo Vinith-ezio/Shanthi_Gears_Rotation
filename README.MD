@@ -99,7 +99,7 @@ Live CCTV --> Capture Current Frame
 
 ```text
 cctv-rotation-guard/
-├── main.py
+├── app.py
 ├── requirements.txt
 ├── README.md
 └── reference_images/
@@ -108,7 +108,7 @@ cctv-rotation-guard/
     └── NVR02_CH01_001.jpg
 ```
 
-`main.py` contains the rotation detector, RTSP utilities, reference-image management, request schemas, and API endpoints.
+`app.py` contains the rotation detector, RTSP utilities, reference-image management, request schemas, and API endpoints.
 
 `requirements.txt` lists the Python dependencies.
 
@@ -126,11 +126,9 @@ cctv-rotation-guard/
 ### Step 1: Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd cctv-rotation-guard
+git clone https://github.com/Vinith-ezio/Shanthi_Gears_Rotation.git
+cd shanthi_gears_rotation
 ```
-
-Replace the placeholder with your actual GitHub repository URL.
 
 ### Step 2: Create a virtual environment
 
