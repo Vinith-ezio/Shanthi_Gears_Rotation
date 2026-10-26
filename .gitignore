@@ -17,6 +17,8 @@ images_*.jpeg
 new_*.jpg
 new_*.jpeg
 ref.jpeg
+.jpeg
+.jpg
 
 # Test artifacts
 .pytest_cache/
