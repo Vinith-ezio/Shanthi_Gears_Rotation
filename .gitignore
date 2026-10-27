@@ -1,34 +1,97 @@
-# Python cache
+
+# ==============================
+# Python
+# ==============================
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
 
-# Virtual environment
+# ==============================
+# Virtual Environments
+# ==============================
 .venv/
 venv/
+env/
+ENV/
 
-# Environment variables and secrets
+# ==============================
+# Environment Variables & Secrets
+# ==============================
 .env
 .env.*
+!.env.example
 
-# Reference images and test images
-reference_images/
-images_*.jpg
-images_*.jpeg
-new_*.jpg
-new_*.jpeg
-ref.jpeg
-new.jpeg
-images.jpeg
-.jpg
-
-# Test artifacts
+# ==============================
+# Test & Coverage
+# ==============================
 .pytest_cache/
 .coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
 
-# IDE settings
+# ==============================
+# Type Checking & Linting
+# ==============================
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# ==============================
+# IDE & Editor
+# ==============================
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
-# OS files
+# ==============================
+# OS Files
+# ==============================
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Generated Camera References
+# Keep the folder, but do not commit captured images
+# ==============================
+reference_images/*
+!reference_images/.gitkeep
+
+# ==============================
+# Temporary & Generated Images
+# ==============================
+output/
+outputs/
+temp/
+tmp/
+*.tmp
+
+# ==============================
+# Build & Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Local Database Files
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
